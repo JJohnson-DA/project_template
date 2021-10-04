@@ -10,4 +10,4 @@ data/raw/*
 scrap_folder/
 
 # Ignore visuals/exploratory
-visuals/exploratory
+visuals/exploratory/
