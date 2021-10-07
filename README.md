@@ -10,7 +10,7 @@ Folder to hold manual csv files if needed. There is a subfolder for raw and clea
 Folder to hold presentations or writeups. The contents of the folder are ignored by the .gitignore file. 
 
 ## Scrap Folder
-This entire folder is ignored by the .gitignore and is intended to store messy or exploratory files that do not need to be pushed to the repository.
+The contents of this folder are ignored by the .gitignore (except .keep) and is intended to store messy or exploratory files that do not need to be pushed to the repository.
 
 ## SQL Queries
 Folder to save sql queries that may need to be called into scripts or saved for reproducibility.
