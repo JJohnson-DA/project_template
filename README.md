@@ -6,6 +6,9 @@ Folder to hold scripts used for data cleaning, exploration, and analysis. Subfol
 ## Data
 Folder to hold manual csv files if needed. There is a subfolder for raw and clean files. Files in this folder will not be pushed to GitHub due to declarations in the .gitignore file. The structure is maintained with the use of .keep files.
 
+## Deliverables
+Folde to hold presentations or writeups. This whole folder is ignored by the .gitignore file.
+
 ## Scrap Folder
 This entire folder is ignored by the .gitignore and is intended to store messy or exploratory files that do not need to be pushed to the repository.
 
@@ -13,4 +16,4 @@ This entire folder is ignored by the .gitignore and is intended to store messy o
 Folder to save sql queries that may need to be called into scripts or saved for reproducibility.
 
 ## Visuals
-Folder to store visuals and deliverables procuded by your code. Has two subfolders, exploratory and final. The exploratory folder will be ignored by .gitignore.
+Folder to store visuals and deliverables procuded by your code. Has two subfolders, exploratory and final. The contents of the subfolders will be ignored but the structure is maintained with the use of .keep files.
