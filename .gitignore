@@ -6,8 +6,9 @@ data/raw/*
 !data/clean/.keep
 !data/raw/.keep
 
-# Ignore scrap_folder/
-scrap_folder/
+# Ignore scrap_folder/ except .keep
+scrap_folder/*
+!scrap_folder/.keep
 
 # Ignore visuals/ except .keep files in subfolders
 visuals/exploratory/*
