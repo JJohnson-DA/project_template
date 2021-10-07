@@ -7,7 +7,7 @@ Folder to hold scripts used for data cleaning, exploration, and analysis. Subfol
 Folder to hold manual csv files if needed. There is a subfolder for raw and clean files. Files in this folder will not be pushed to GitHub due to declarations in the .gitignore file. The structure is maintained with the use of .keep files.
 
 ## Deliverables
-Folde to hold presentations or writeups. This whole folder is ignored by the .gitignore file.
+Folder to hold presentations or writeups. The contents of the folder are ignored by the .gitignore file. 
 
 ## Scrap Folder
 This entire folder is ignored by the .gitignore and is intended to store messy or exploratory files that do not need to be pushed to the repository.

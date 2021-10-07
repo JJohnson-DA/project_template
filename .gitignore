@@ -15,5 +15,6 @@ visuals/final/*
 !visuals/exploratory/.keep
 !visuals/final/.keep
 
-# Ignore deliverables
-deliverables/
+# Ignore deliverables except .keep file
+deliverables/*
+!deliverables/.keep
