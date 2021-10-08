@@ -11,10 +11,14 @@ Folder to hold manual csv files if needed. There is a subfolder for raw and clea
 Folder to hold presentations or writeups. The contents of the folder will not be pushed to GitHub due to the .gitignore file. 
 
 ## Scrap Folder
-This entire folder is ignored by the .gitignore and is intended to store messy or exploratory files that do not need to be pushed to the repository.
+The contents of this folder are ignored by the .gitignore (except .keep) and is intended to store messy or exploratory files that do not need to be pushed to the repository.
 
 ## SQL Queries
 Folder to save sql queries that may need to be called into scripts or saved for reproducibility.
 
 ## Visuals
+<<<<<<< HEAD
 Folder to store visuals and deliverables procuded by your code. Has two subfolders, exploratory and final. The contents of the subfolders will not be pushed to GitHub due to the .gitignore file. If you would like to push final visuals then please adjust the .gitignore for your repo.
+=======
+Folder to store visuals and deliverables procuded by your code. Has two subfolders, exploratory and final. The contents of the subfolders will be ignored but the structure is maintained with the use of .keep files.
+>>>>>>> 27953dcfecad330b2d23a2ebda24d58672ab1108
