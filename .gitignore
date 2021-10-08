@@ -1,8 +1,6 @@
-# ignore files in data/clean/ and data/raw/
+# ignore files in data/clean/ and data/raw/ except the .keep files in order to maintain structure
 data/clean/*
 data/raw/*
-
-# except the .keep files in order to maintain structure
 !data/clean/.keep
 !data/raw/.keep
 
