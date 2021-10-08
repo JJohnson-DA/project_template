@@ -17,5 +17,5 @@ The contents of this folder are ignored by the .gitignore (except .keep) and is 
 Folder to save sql queries that may need to be called into scripts or saved for reproducibility.
 
 ## Visuals
-Folder to store visuals and deliverables procuded by your code. Has two subfolders, exploratory and final. The contents of the subfolders will not be pushed to GitHub due to the .gitignore file. If you would like to push final visuals then please adjust the .gitignore for your repo.
+Folder to store visuals produced by your code. Has two subfolders, exploratory and final. The contents of the subfolders will not be pushed to GitHub due to the .gitignore file. If you would like to push final visuals then please adjust the .gitignore for your repo.
 
