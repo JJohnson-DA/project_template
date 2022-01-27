@@ -50,8 +50,8 @@ colnames(ts1) <- cbind('cpa', 'l7_spend_delta')
 
 
 # Find optimal lag value
-# ts1 = 15
-lagselect <- VARselect(ts1, lag.max=15, type='const')
+# ts1 = 29
+lagselect <- VARselect(ts1, lag.max=50, type='const')
 lagselect$selection
 lagselect$criteria
 
@@ -59,7 +59,7 @@ lagselect$criteria
 # Modeling =====================================================================
 # Fit - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # Fit Model with optimal lags found above
-mod1 <- VAR(ts1, p=15, type='const', exog=NULL, season=NULL)
+mod1 <- VAR(ts1, p=29, type='const', exog=NULL, season=NULL)
 summary(mod1)
 
 
@@ -92,6 +92,6 @@ plot(cpaIRF, ylab = "Lag (7) Spend Delta", main = "Spend Delta Shock to CPA")
 
 
 # Forecast Error Variance Decomposition
-FEVD1 <- fevd(mod1, n.ahead = 10)
+FEVD1 <- fevd(mod1, n.ahead = 30)
 FEVD1
 plot(FEVD1)
